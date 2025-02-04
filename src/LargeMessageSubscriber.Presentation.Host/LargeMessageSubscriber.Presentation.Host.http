@@ -1,0 +1,6 @@
+@LargeMessageSubscriber.Presentation.Host_HostAddress = http://localhost:5256
+
+GET {{LargeMessageSubscriber.Presentation.Host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

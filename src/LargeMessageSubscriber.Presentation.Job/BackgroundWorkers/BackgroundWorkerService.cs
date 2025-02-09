@@ -39,7 +39,7 @@ namespace LargeMessageSubscriber.Presentation.Job.BackgroundWorkers
 
             foreach (var mockDataPoint in mockDataPoints)
             {
-                dataPointEvent.CreateDataPoints.Add(new CreateDataPoint()
+                dataPointEvent.CreateDataPoint.Add(new CreateDataPoint()
                 {
                     Name = mockDataPoint.Name,
                     Timestamp = mockDataPoint.Timestamp,

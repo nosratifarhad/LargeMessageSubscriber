@@ -1,4 +1,4 @@
-﻿namespace LargeMessageSubscriber.Domain
+﻿namespace LargeMessageSubscriber.Domain.LargeMessage.Entities
 {
     public class DataPoint
     {
@@ -8,12 +8,5 @@
         public double Value { get; set; }
         public DateTime CreateAt { get; set; }
         public DateTime? UpdateAt { get; set; }
-        public DateTime? ProcessedOn { get; set; }
-        public bool Processed { get; set; }
-        public void Process()
-        {
-            Processed = true;
-            ProcessedOn = DateTime.UtcNow;
-        }
     }
 }

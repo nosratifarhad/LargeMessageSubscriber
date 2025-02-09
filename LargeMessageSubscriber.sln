@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LargeMessageSubscriber.Pres
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{06247591-DF95-46B3-95D4-36A4E0AF22F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargeMessageSubscriber.Integration", "src\LargeMessageSubscriber.Integration\LargeMessageSubscriber.Integration.csproj", "{414F7715-C0DF-42AA-8F5A-F7FB9E829B7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LargeMessageSubscriber.Integration", "src\LargeMessageSubscriber.Integration\LargeMessageSubscriber.Integration.csproj", "{414F7715-C0DF-42AA-8F5A-F7FB9E829B7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LargeMessageSubscriber.Domain\LargeMessageSubscriber.Domain.csproj" />
     <ProjectReference Include="..\LargeMessageSubscriber.Shared\LargeMessageSubscriber.Shared.csproj" />
   </ItemGroup>
 

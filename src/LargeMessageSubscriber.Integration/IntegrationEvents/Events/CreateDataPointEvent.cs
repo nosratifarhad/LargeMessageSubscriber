@@ -2,7 +2,7 @@
 {
     public class DataPointEvent
     {
-        public List<CreateDataPoint> CreateDataPoints { get; set; }
+        public List<CreateDataPoint> CreateDataPoint { get; set; }
     }
 
     public class CreateDataPoint
